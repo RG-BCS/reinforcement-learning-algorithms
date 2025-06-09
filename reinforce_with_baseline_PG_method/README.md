@@ -44,7 +44,6 @@ This project implements the REINFORCE algorithm with a baseline (advantage funct
 | Test after training reward  | 500.0     |
 | Average reward over 20 runs | 500.00    |
 ```
-
 ---
 
 ## Notes
@@ -54,7 +53,6 @@ This project implements the REINFORCE algorithm with a baseline (advantage funct
 - Training typically converges faster and more reliably than vanilla REINFORCE without baseline.
 - The stochastic policy selects actions probabilistically, enabling exploration of the environment.
 ```
-
 ---
 
 ## How to Run
