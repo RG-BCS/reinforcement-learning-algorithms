@@ -39,7 +39,7 @@ Obstacles are treated as impassable and assigned a value of `-inf` in the state-
 ---
 
 ## Sample Output (Greedy Policy Visualization)
-
+```bash
 Below is the printed policy learned by TD(0) (arrows denote the best action in each cell):
 
 Optimal Policy Grid (arrows indicate the best action in each cell):
