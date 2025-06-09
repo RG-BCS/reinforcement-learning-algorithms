@@ -37,7 +37,6 @@ This project implements the REINFORCE algorithm with a baseline (advantage funct
 
 ## Evaluation
 ``bash
-
 | Metric                      | Value     |
 |-----------------------------|-----------|
 | Test before training reward | 9.0       |
@@ -48,7 +47,6 @@ This project implements the REINFORCE algorithm with a baseline (advantage funct
 
 ## Notes
 ```bash
-
 - The baseline (average discounted reward) helps stabilize training by reducing variance in gradient estimates.
 - Training typically converges faster and more reliably than vanilla REINFORCE without baseline.
 - The stochastic policy selects actions probabilistically, enabling exploration of the environment.
