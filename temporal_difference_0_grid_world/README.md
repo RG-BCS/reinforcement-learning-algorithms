@@ -53,11 +53,11 @@ Optimal Policy Grid (arrows indicate the best action in each cell):
 
 Optimal Policy Grid with rollout path from start state (⛳):
 
-      →  →  →   →   →   ↓
-      →  →  →   ↑   █   ↓
-     ⛳  ↓  ↓   █  🏆   9
-      1  2  3   4   █   8
-      →  →  →   5   6   7
+      →     →     →      →     →     ↓
+      →     →     →      ↑     █     ↓
+     ⛳     ↓     ↓      █     🏆    9
+      1     2     3      4     █     8
+      →     →     →      5     6     7
 
 . →, ↑, ↓, ←: Optimal actions.
 
@@ -77,7 +77,6 @@ Numbers indicate steps along the rollout path.
 
     pip install -r requirements.txt
 ```
-
 ---
 
 ## Usage
@@ -92,11 +91,3 @@ Numbers indicate steps along the rollout path.
 ```
 
 ---
-
-## Example Output
-```bash
-
-
-
-
-
