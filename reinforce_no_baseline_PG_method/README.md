@@ -21,10 +21,9 @@ The REINFORCE algorithm is a fundamental policy gradient method in reinforcement
 ---
 
 ## Installation
-
+```bash
 1. Clone this repository:
 
-   ```bash
    git clone <your-repo-url>
    cd reinforcement-learning-algorithms/reinforce_no_baseline_PG_method
 
@@ -32,7 +31,6 @@ The REINFORCE algorithm is a fundamental policy gradient method in reinforcement
 
     pip install -r requirements.txt
 ```
-
 ---
 
 ## Usage
