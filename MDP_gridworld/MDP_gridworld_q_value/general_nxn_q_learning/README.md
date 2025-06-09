@@ -19,13 +19,13 @@ This project implements **Q-Learning** to solve a deterministic Markov Decision 
 
 ## Folder Structure
 ```bash
-mdp_gridworld_q_value/
-│
-├── q_learning_nxn.py # Core Q-learning implementation for NxN grid
-├── demo.ipynb # Notebook with explanation, training, and policy visualization
-├── demo_script.py # Command-line script to train and print optimal policy
-├── requirements.txt # Required Python packages
-└── README.md # This file
+MDP_gridworld_q_value/
+  ├── general_nxn_q_learning/
+    ├── q_learning_nxn.py # Core Q-learning implementation for NxN grid
+    ├── demo.ipynb # Notebook with explanation, training, and policy visualization
+    ├── demo_script.py # Command-line script to train and print optimal policy
+    ├── requirements.txt # Required Python packages
+    └── README.md # This file
 ```
 
 ---
