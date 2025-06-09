@@ -1,6 +1,6 @@
 # Stochastic MDP Grid World
 
-This repository contains a Python implementation of a **stochastic Markov Decision Process (MDP)** for a MxN grid world environment with obstacles, stochastic action outcomes, and a goal state. It demonstrates value iteration for finding an optimal policy, simulating policy rollouts, and visualizing the results.
+This repository contains a Python implementation of a **stochastic Markov Decision Process (MDP)** for MxN grid world environment with obstacles, stochastic action outcomes, and a goal state. It demonstrates value iteration for finding an optimal policy, simulating policy rollouts, and visualizing the results.
 
 ---
 
