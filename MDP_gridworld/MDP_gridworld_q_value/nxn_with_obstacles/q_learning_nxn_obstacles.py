@@ -86,7 +86,7 @@ def simulate_policy(Q_values, states, actions, start_index, goal_index):
 def plot_policy_arrows(Q_values, grid_world, actions, states, goal_state, path=None, obstacles=None):
     symbols = [action_symbol_map[actions[np.argmax(row)]] for row in Q_values]
     symbols.insert(states.index(goal_state), '\U0001F3C6')  # Trophy for goal
-
+    
     symbol_grid, idx = [], 0
     for i in range(grid_world[0]):
         row = []
