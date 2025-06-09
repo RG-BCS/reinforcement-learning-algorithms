@@ -45,7 +45,7 @@ This project implements the REINFORCE algorithm with a baseline (advantage funct
 ```
 ---
 
-## Notes
+## *Notes*
 ```bash
 - The baseline (average discounted reward) helps stabilize training by reducing variance in gradient estimates.
 - Training typically converges faster and more reliably than vanilla REINFORCE without baseline.
