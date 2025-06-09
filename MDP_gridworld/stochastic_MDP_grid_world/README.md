@@ -6,7 +6,9 @@ This repository contains a Python implementation of a **stochastic Markov Decisi
 
 ## Project Overview
 ```bash
-The grid world used as an example in this repository is 5x6 environment where an agent navigates through states, avoiding obstacles to reach a goal state with a high reward. Actions are stochastic — the agent may veer off the intended direction with certain probabilities, adding realism to the environment.
+The grid world used as an example in this repository is 5x6 environment where an agent navigates through states,
+avoiding obstacles to reach a goal state with a high reward. Actions are stochastic — the agent may veer off the
+intended direction with certain probabilities, adding realism to the environment.
 
 Key features:
 - Stochastic transitions modeled with specified probabilities.
