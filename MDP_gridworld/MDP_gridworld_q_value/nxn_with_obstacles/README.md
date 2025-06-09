@@ -27,8 +27,8 @@ This project implements a general-purpose NxN GridWorld MDP solved using **Value
 Install dependencies:
 
 ```bash
-pip install numpy matplotlib
-
+pip install -r requirements.txt
+```
 ---
 
 ## How to Run
