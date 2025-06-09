@@ -44,12 +44,17 @@ reinforce_stepwise_pg/
 ## Results
 
 ```bash
-The Stepwise Policy Gradient agent was trained on the CartPole-v1 environment for 150 iterations, with performance evaluated every 10 iterations.
+The Stepwise Policy Gradient agent was trained on the CartPole-v1 environment for 150 iterations,
+with performance evaluated every 10 iterations.
 
-- **Before training**, the untrained neural network policy achieved an average reward of approximately **9.36** over 50 episodes, close to random.
-- During training, the average reward steadily improved, surpassing **400** steps by iteration 80 and reaching near-perfect performance by the end.
-- At the final iteration (iteration 149), the policy consistently achieved the **maximum possible reward of 500 steps**.
-- **After training**, the policy averaged **499.42** over 50 evaluation episodes, demonstrating near-optimal control.
+- **Before training**, the untrained neural network policy achieved an average reward
+  of approximately **9.36** over 50 episodes, close to random.
+- During training, the average reward steadily improved, surpassing **400** steps
+  by iteration 80 and reaching near-perfect performance by the end.
+- At the final iteration (iteration 149), the policy consistently achieved the
+  **maximum possible reward of 500 steps**.
+- **After training**, the policy averaged **499.42** over 50 evaluation episodes,
+  demonstrating near-optimal control.
 
 | Stage            | Average Reward |
 |------------------|----------------|
