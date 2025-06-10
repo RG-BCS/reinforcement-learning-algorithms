@@ -43,11 +43,10 @@ It showcases:
 
 Obstacles are treated as impassable and assigned a value of `-inf` in the state-value table.
 ```
-
 ---
 
 ## Sample Output (Greedy Policy Visualization)
-
+```bash
 Below is the printed policy learned by Q-Learning (arrows denote the best action in each cell):
 
 Optimal Policy Grid (arrows indicate the best action in each cell):
