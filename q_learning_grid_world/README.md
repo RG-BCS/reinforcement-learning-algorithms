@@ -82,7 +82,6 @@ Numbers indicate steps along the rollout path.
 ---
 ## Installation
 ```bash
-
     pip install -r requirements.txt
 ```
 ---
