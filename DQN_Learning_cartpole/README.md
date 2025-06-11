@@ -26,14 +26,26 @@ This project implements a Deep Q-Network (DQN) agent to solve the classic **Cart
 ##  Project Structure
 
 ```bash
-DQN_Learning_CartPole/
-├── README.md
-├── requirements.txt
-├── main.py
-├── dqn_agent.py
-├── utils.py
-├── demo.ipynb
-├── demo_script.py
+- `README.md`  
+  This file — provides an overview of the project, setup instructions, and usage details.
+
+- `requirements.txt`  
+  Lists all Python dependencies required to run the code.
+
+- `main.py`  
+  The main training script that ties together the environment, DQN agent, and training loop.
+
+- `dqn_agent.py`  
+  Contains the DQN agent’s implementation: the Q-network model, replay buffer, and training functions.
+
+- `utils.py`  
+  Utility functions for evaluating the trained policy over multiple episodes.
+
+- `demo.ipynb`  
+  An interactive Jupyter notebook demonstrating how to train and evaluate the DQN agent with markdown explanations.
+
+- `demo_script.py`  
+  A simple standalone script to run the training and evaluation pipeline from the command line.
 
 ```
 
