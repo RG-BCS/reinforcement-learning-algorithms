@@ -1,6 +1,6 @@
 # Deep Q-Network (DQN) on CartPole-v1
 
-This project implements a Deep Q-Network (DQN) agent to solve the classic **CartPole-v1** environment from OpenAI Gym. The agent learns to balance a pole on a moving cart by interacting with the environment and learning from experience using reinforcement learning.
+This project implements a Deep Q-Network (DQN) agent with a *Target Network* to solve the classic **CartPole-v1** environment from OpenAI Gym. The agent learns to balance a pole on a moving cart by interacting with the environment and learning from experience using reinforcement learning.
 
 ---
 
