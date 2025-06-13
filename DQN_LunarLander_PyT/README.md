@@ -31,21 +31,10 @@ Double DQN and its variants.
 ```
 ---
 
-##  Project Structure
-
-```bash
-    Q_Learning_TF_Function_Approx/
-        ├── q_learning_tf.py
-        ├── requirements.txt
-        └── README.md
-
-```
----
-
 ## Getting Started
-
-### 1. Install dependencies
 ```bash
+### 1. Install dependencies
+
     pip install -r requirements.txt
 
 ### 2. Train the agent
