@@ -1,9 +1,10 @@
 #  Double DQN on LunarLander-v2
 ```bash
 
-This repository implements the **Double Deep Q-Network (Double DQN)** algorithm using PyTorch on the classic `LunarLander-v2` environment from OpenAI Gym. It is an improvement over the vanilla DQN, mitigating Q-value overestimation by decoupling action selection and action evaluation.
+This repository implements the **Double Deep Q-Network (Double DQN)** algorithm using PyTorch
+on the classic `LunarLander-v2` environment from OpenAI Gym. It is an improvement over the vanilla
+DQN, mitigating Q-value overestimation by decoupling action selection and action evaluation.
 
-> This repo is separate from the [Vanilla DQN implementation](https://github.com/yourusername/vanilla-dqn-lunarlander) to highlight the difference in architecture, training stability, and results.
 ```
 ---
 
@@ -83,7 +84,7 @@ Dense(128 → action_dim = 4)
 
 ```
 ---
-![Training Rewards](rewards_vs_episodes.png)
+![Training Rewards](reward_vs_episodes.png)
 ---
 
 ## How it Works (Brief)
