@@ -84,7 +84,7 @@ Dense(128 → action_dim = 4)
 
 ```
 ---
-![Training Rewards](reward_vs_episodes.png)
+![Training Rewards](reward_vs_episode.png)
 ---
 
 ## How it Works (Brief)
