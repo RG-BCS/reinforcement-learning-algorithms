@@ -28,7 +28,9 @@ network**. It serves as a foundational exercise in reinforcement learning, trans
 
 ## Background
 ```bash
-This project is a stepping stone toward Deep Q-Learning. In standard DQN, a separate **target network** is used to stabilize training. Here, the same network is used for both action selection and bootstrapping, demonstrating the **"off-policy"** nature of Q-learning more directly.
+This project is a stepping stone toward Deep Q-Learning. In standard DQN, a separate **target network** is
+used to stabilize training. Here, the same network is used for both action selection and bootstrapping,
+demonstrating the **"off-policy"** nature of Q-learning more directly.
 ```
 ---
 
