@@ -1,6 +1,8 @@
 # Q-Learning with Function Approximation (TensorFlow)
 ```bash
-This project implements **Q-learning with a neural network function approximator** on the classic `CartPole-v1` environment using **TensorFlow**. Unlike Deep Q-Networks (DQN), this implementation **does not use a target network**. It serves as a foundational exercise in reinforcement learning, translating core theory into working code.
+This project implements **Q-learning with a neural network function approximator** on the classic `CartPole-v1`
+environment using **TensorFlow**. Unlike Deep Q-Networks (DQN), this implementation **does not use a target
+network**. It serves as a foundational exercise in reinforcement learning, translating core theory into working code.
 ```
 ---
 
