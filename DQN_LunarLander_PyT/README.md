@@ -1,7 +1,8 @@
 # Vanilla DQN on LunarLander-v2
 ```bash
-This repository implements a **Vanilla Deep Q-Network (DQN)** agent to solve the [LunarLander-v2]
-(https://gym.openai.com/envs/LunarLander-v2/) environment from OpenAI Gym using PyTorch.
+This repository implements a **Vanilla Deep Q-Network (DQN)** agent to solve the
+[LunarLander-v2](https://gym.openai.com/envs/LunarLander-v2/) environment from
+OpenAI Gym using PyTorch.
 ```
 ---
 
@@ -102,10 +103,10 @@ Dense(128 → action_dim = 4)
 
 ### After Training
         . Average reward over 100 evaluation episodes: 184.86
-
 ```
 ---
-
+![Training Rewards](rewards_vs_episodes.png)
+---
 ## How it Works (Brief)
 ```bash
     . The agent learns a Q-value function approximated by a neural network.
@@ -124,4 +125,3 @@ Dense(128 → action_dim = 4)
 
 ```
 ---
-![Training Rewards](rewards_vs_episodes.png)
