@@ -32,9 +32,9 @@ This project implements the REINFORCE algorithm with a baseline (advantage funct
 | 400     | 500.0  | -0.0125 |
 | 450     | 232.0  | -0.0683 |
 ```
-
 ---
-
+![Training Rewards](rewards_vs_episodes.png)
+---
 ## Evaluation
 ```bash
 | Metric                      | Value     |
