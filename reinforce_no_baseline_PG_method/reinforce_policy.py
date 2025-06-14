@@ -110,7 +110,7 @@ def train_policy_model(env_name, model, optimizer, episodes=500, gamma=0.99, eps
 
             # Forward pass to get action probabilities
             probs = tf.reshape(model(states), (-1,))
-            action_probs = tf.where(actions == 1, probs, 1 - probs)  # stochastic prob of selected action
+            action_probs = tf.where(actions == 0, probs, 1 - probs)  # stochastic prob of selected action
             action_probs = tf.clip_by_value(action_probs, 1e-8, 1.0)
 
             # Log-likelihood loss scaled by return
