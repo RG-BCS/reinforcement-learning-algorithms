@@ -29,9 +29,9 @@ This approach yields faster and more stable learning compared to vanilla DQN.
 ### 1. Install dependencies
 ```bash
     pip install -r requirements.txt
-
+```
 ### 2. Train the agent
-
+```bash
     . Use demo_script.py to test a trained agent quickly.
     . Explore demo.ipynb for an interactive walkthrough and analysis.
 
