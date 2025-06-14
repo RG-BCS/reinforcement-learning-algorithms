@@ -89,9 +89,7 @@ Optimal Policy Grid with rollout path from start state (⛳):
 . ⛳: Start state.
 
 Numbers indicate steps along the rollout path.
-
 ```
 ---
-
-
-
+![Training Rewards](rewards_vs_episodes.png)
+---
