@@ -10,7 +10,7 @@ DQN, mitigating Q-value overestimation by decoupling action selection and action
 
 ##  Repository Structure
 ```bash
-    ├── double_dqn_lunarlander.py       # Main vanilla DQN training script
+    ├── double_dqn_lunarlander.py       # Main double DQN training script
     ├── demo_script.py                  # Quick demo script to test the trained agent
     ├── demo.ipynb                      # Interactive Jupyter notebook walkthrough
     ├── requirements.txt                # Python dependencies
