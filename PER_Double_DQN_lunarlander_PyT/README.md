@@ -70,8 +70,6 @@ Dense(128 → action_dim = 4)
         | 900     | 296.59       | 0.011   |
         | 950     | 259.91       | 0.010   |
 
-
-
 ### After Training
         . Average reward over 100 evaluation episodes: 238.37
 
