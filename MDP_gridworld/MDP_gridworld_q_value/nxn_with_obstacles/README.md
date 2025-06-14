@@ -70,6 +70,8 @@ Option 2.
 🏆 = goal
 ```
 ---
+![Training Rewards](rewards_vs_episodes.png)
+---
 ## Matplotlib Visualization
 ```bash
 
