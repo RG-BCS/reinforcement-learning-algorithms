@@ -36,9 +36,9 @@ Double DQN and its variants.
 ### 1. Install dependencies
 
     pip install -r requirements.txt
-
+```
 ### 2. Train the agent
-    python q_learning_tf.py
+```bash
 
     . Use demo_script.py to test a trained agent quickly.
     . Explore demo.ipynb for an interactive walkthrough and analysis.
