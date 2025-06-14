@@ -64,7 +64,6 @@ with performance evaluated every 10 iterations.
 
 Training over 150 iterations yielded strong learning performance:
 
-
 ### Training Performance Snapshot
 
 | Iteration | Average Reward (10 episodes) |
@@ -80,7 +79,8 @@ Training over 150 iterations yielded strong learning performance:
 This demonstrates effective learning and convergence of the policy gradient method on this classic control task.Moreover,
 These results highlight the capability of the stepwise policy gradient algorithm to solve reinforcement learning problems effectively, making this portfolio piece a strong demonstration of practical RL expertise.
 ```
-
+---
+![Training Rewards](rewards_vs_episodes.png)
 ---
 ## Installation
 
