@@ -22,13 +22,7 @@ The REINFORCE algorithm is a fundamental policy gradient method in reinforcement
 
 ## Installation
 ```bash
-1. Clone this repository:
-
-   git clone <your-repo-url>
-   cd reinforcement-learning-algorithms/reinforce_no_baseline_PG_method
-
-2. Install required packages:
-
+1. Install required packages:
     pip install -r requirements.txt
 ```
 ---
@@ -74,6 +68,8 @@ The REINFORCE policy gradient method was trained on the `CartPole-v1` environmen
 
 This demonstrates that the model successfully learned a policy to keep the pole upright for the maximum duration.
 ```
+---
+![Training Rewards](rewards_episodes.png)
 ---
 
 ## File Structure
