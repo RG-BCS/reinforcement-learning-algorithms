@@ -71,7 +71,8 @@ Numbers indicate steps along the rollout path.
 
 ```
 ---
-
+![Training Rewards](rewards_vs_episodes.png)
+---
 ## Installation
 ```bash
 
