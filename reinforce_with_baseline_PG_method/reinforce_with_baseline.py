@@ -97,7 +97,7 @@ def train_policy_model(n_episodes, env_name, policy_model, gamma=0.99, epsilon=1
 
             # Compute action probabilities
             p_left = tf.reshape(policy_model(states), (-1,))
-            action_probs = tf.where(actions == 1, p_left, 1 - p_left)
+            action_probs = tf.where(actions == 0, p_left, 1 - p_left)
             action_probs = tf.clip_by_value(action_probs, 1e-8, 1.0)
 
             log_probs = tf.math.log(action_probs + epsilon)
