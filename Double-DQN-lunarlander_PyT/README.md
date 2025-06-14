@@ -26,7 +26,6 @@ DQN, mitigating Q-value overestimation by decoupling action selection and action
     pip install -r requirements.txt
 
 ### 2. Train the agent
-    python q_learning_tf.py
 
     . Use demo_script.py to test a trained agent quickly.
     . Explore demo.ipynb for an interactive walkthrough and analysis.
