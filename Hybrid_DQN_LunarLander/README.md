@@ -1,4 +1,5 @@
 # Hybrid DQN Agent with Dueling Architecture, Double DQN & Prioritized Replay
+
 ```bash
 This project implements a deep reinforcement learning agent that combines several advanced DQN variants:
     - Dueling Q-Network
@@ -10,6 +11,7 @@ The agent is trained and evaluated on the LunarLander-v2 environment from OpenAI
 ---
 
 ## Highlights
+
 ```bash
 - PyTorch-based implementation
 - Clean, modular structure (agent, buffer, training loop)
@@ -36,9 +38,9 @@ The agent is trained and evaluated on the LunarLander-v2 environment from OpenAI
 ### 1. Install dependencies
 ```bash
     pip install -r requirements.txt
-
+```
 ### 2. Train the agent
-
+```bash
     . Use demo_script/train_agent.py to test a trained agent quickly.
     . Explore demo.ipynb for an interactive walkthrough and analysis.
     . Modify config in train_agent.py to tune hyperparameters
@@ -53,6 +55,7 @@ The agent is trained and evaluated on the LunarLander-v2 environment from OpenAI
 Dense(8 → 128) + relu
    ↓
 Dense(128 → action_dim = 4)
+
 
 . Optimizer: Adam (lr = 1e-3)
 . Loss: nn.SmoothL1Loss()/hubber
