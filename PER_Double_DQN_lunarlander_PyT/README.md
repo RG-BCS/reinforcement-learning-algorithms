@@ -77,7 +77,28 @@ Dense(128 → action_dim = 4)
 ---
 ![Training Rewards](rewards_vs_episodes.png)
 ---
+## Model Performance Commentary
+```bash
+The PER-Double DQN implementation demonstrates significant learning progress on the LunarLander-v2 environment,
+showcasing the strength of combining Double DQN with Prioritized Experience Replay.
 
+    . Before training, the agent’s performance is understandably poor, with an average reward of
+      around -373 over 100 episodes, indicating near-random behavior.
+
+    . Throughout training, rewards steadily improve, with occasional dips that reflect the stochastic
+      nature of the environment and exploration.
+
+    . By episode 500, the agent starts consistently achieving positive rewards, breaking above 200 points,
+      which signals a policy well beyond random or naive play.
+
+    . After 1000 episodes, the average reward reaches approximately 238, a strong performance indicating the
+      agent has learned an effective policy to safely land the lunar module.
+
+This marked improvement highlights the efficacy of prioritized replay in focusing updates on important transitions,
+and the Double DQN technique’s ability to mitigate overestimation bias — both crucial for stable and efficient
+learning in continuous control tasks like LunarLander.
+```
+---
 ## Notes
 ```bash
     
