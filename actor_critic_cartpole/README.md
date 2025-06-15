@@ -16,7 +16,7 @@ learning agent.
 - Implements **on-policy actor-critic** using shared experience
 - Modular code split into training, utilities, and demo scripts
 - Includes **Jupyter Notebook** with explanations for interactive learning
-
+```
 ---
 
 ##  Repository Structure
@@ -29,8 +29,6 @@ learning agent.
         ├── utils.py            # Helper functions (env handling, rollout, etc.)
         ├── requirements.txt    # Dependency list
         └── README.md           # You're here
-
-
 ```
 ---
 
