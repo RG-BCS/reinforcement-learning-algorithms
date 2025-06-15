@@ -56,7 +56,6 @@ A wide spectrum of RL methods — each implemented clearly, modularly, and with 
 - Shows mastery of RL theory **and** practical application  
 - Combines low-level math with real-world Gym environments  
 - Uses both **TensorFlow** and **PyTorch** to demonstrate framework fluency  
-- Ideal for interviews, self-study, and ML portfolio building
 
 ---
 
@@ -84,11 +83,3 @@ From the Actor-Critic CartPole implementation:
 - RL blog series based on these implementations
 
 ---
-
-##  How to Use
-
-```bash
-# Example: Run Actor-Critic CartPole
-cd policy_gradient
-pip install -r requirements.txt
-python ac_cartpole.py
